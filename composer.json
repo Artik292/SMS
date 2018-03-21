@@ -1,5 +1,11 @@
 {
-    "require": {
-        "twilio/sdk": "*"
-    }
+    "autoload": {
+        "psr-4": {
+            "":"src/"
+        }
+    },
+  "require":{
+    "atk4/ui": "*",
+        "twilio/sdk": "^5.15"
+  }
 }
